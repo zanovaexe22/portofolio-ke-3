@@ -1,0 +1,105 @@
+body {
+  background: #eaf1fa;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin: 0;
+  color: #222;
+}
+.container {
+  max-width: 700px;
+  margin: 36px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 28px rgba(79,142,247,0.12);
+  padding: 30px 22px 18px 22px;
+}
+.profile {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.profile-photo {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(79,142,247,0.14);
+  border: 3px solid #4f8ef7;
+  margin-bottom: 9px;
+}
+h1 {
+  margin-bottom: 8px;
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #4f8ef7;
+}
+.bio {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+  font-size: 1.03rem;
+}
+.bio li {
+  margin: 3px 0;
+}
+.social, .linktree {
+  margin: 7px 0;
+  font-size: 1rem;
+}
+.social a, .linktree a {
+  color: #4f8ef7;
+  text-decoration: none;
+}
+.social a:hover, .linktree a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 26px;
+}
+
+h2 {
+  color: #4f8ef7;
+  font-size: 1.19rem;
+  margin-bottom: 7px;
+  border-bottom: 2px solid #e3eaf5;
+  padding-bottom: 3px;
+  font-weight: 700;
+}
+ul {
+  padding-left: 21px;
+  margin: 0;
+}
+.goals p {
+  margin: 0;
+  font-size: 1.04rem;
+}
+blockquote {
+  background: #f1f7ff;
+  border-left: 5px solid #4f8ef7;
+  padding: 14px 19px;
+  font-style: italic;
+  color: #3a4b68;
+  border-radius: 7px;
+  margin: 16px 0 0 0;
+}
+footer {
+  text-align: center;
+  color: #999;
+  font-size: 0.97rem;
+  margin: 25px 0 4px 0;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 15px 4px 12px 4px;
+  }
+  h1 {
+    font-size: 1.35rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  .profile-photo {
+    width: 85px;
+    height: 85px;
+  }
+}
